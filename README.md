@@ -31,3 +31,13 @@ yarn add -D nodemon
 yarn start:dev
 npm run start:dev
 ```
+
+- 5\_ Instalar CORS para poder habilitar el acceso externo
+
+```
+yarn add cors
+```
+
+```
+app.use(cors())
+```
